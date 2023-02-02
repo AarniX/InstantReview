@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #000000;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  .container{
+      max-width: 1240px;
+      background-color: #000000;
+      height: min-content;
+      margin: 40px auto;
+      padding: 20px;
+      display: grid;
+    grid-template-rows: auto auto 5em;
+    grid-template-columns: minmax(25em, 1fr) 16em;
+    grid-template-areas: "banner banner" "main hours" "footer footer";
+      
+  }     
+  h1{
+      font-size: 30px;
+      margin: 0;
+  }
+  .clear{
+      clear: both;
+  }
+  nav{
+      float: right;
+      width: 100%;
+      background-color: #080707;
+      text-align: center;
+      padding: 30px 15px;
+      margin-bottom: 10px;
+  }
+  .section1{
+      float: left;
+      width: 100%;
+      background-color: #000000;
+      text-align: center;
+      padding: 50px 10px;
+      margin-bottom: 20px;
+  }
+  .section1 .content{
+      float: left;
+      width: 100%;
+      margin-top: 60px;
+  }
+  .section1 .content .card{
+      width: 25%;
+      float: left;
+      padding: 0px 10px;
+  }
+  .section1 .content .card .box{
+      background-color: rgb(0, 0, 0);
+      font-size: 30px;
+      color: #fff;
+      padding: 60px 15px;
+  }
+  .section2{
+      float: left;
+      width: 100%;
+      background-color: #000000;
+      text-align: center;
+      padding: 50px 10px;
+      margin-bottom: 20px;
+  }
+  .section2 .content{
+      float: left;
+      width: 100%;
+      margin-top: 60px;
+  }
+  .section2 .content .left{
+      width: 50%;
+      float: left;
+      padding: 0px 10px;
+  }
+  .section2 .content .left .card{
+      padding: 200px 15px;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      background-color: rgb(0, 0, 0);
+  
+  }
+  .section2 .content .right{
+      width: 50%;
+      float: left;
+      padding: 0px 10px;
+  }
+  .section2 .content .right .card{
+      padding: 48px 15px;
+      font-size: 30px;
+      color: #fff;
+      background-color: rgb(0, 0, 0);
+      margin-bottom: 20px;
+  }
+  footer{
+      float: left;
+      width: 100%;
+      background-color: #dddddd;
+      text-align: center;
+      padding: 50px 10px;
+  }
+  .btn {
+      background-color: rgb(242, 216, 84); /* Blue background */
+      border: none; /* Remove borders */
+      color: rgb(3, 3, 3); /* White text */
+      padding: 12px 16px; /* Some padding */
+      font-size: 16px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+    }
+  
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: rgb(183, 125, 7);
+    }
+    .MainImage {
+      right: inherit;
+      padding-top: 0px;
+      border-radius: 1000px;
+      size-adjust: unset;
+    }
+    .hide {
+      display: none;
+    }
+  
+    .myDIV:hover + .hide {
+      display: block;
+      color: rgb(16, 14, 14);
+    }
+    .list {
+      list-style:circle;
+      margin: 1pc;
+      padding: 1pc;
+    }
+    .dark {
+      -webkit-text-fill-color: black;
+    }
+    section.info {
+      position: static;
+      left: 6pc;
+      right: 0.2;
+      top: 0;
+      bottom: 0;
+    }
+    /* Remove default bullets */
+    ul,
+    #myUL {
+      list-style-type: none;
+    }
+  
+    /* Remove margins and padding from the parent ul */
+    #myUL {
+      margin: 0;
+      padding: 0;
+    }
+    header h1 {
+      font-size: 50px;
+      font-weight: 600;
+      background-image: linear-gradient(to bottom left, #000000, #321812);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    /* Remove default bullets */
+    ul,
+    #myUL {
+      list-style-type: none;
+    }
+  
+    /* Remove margins and padding from the parent ul */
+    #myUL {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* Style the caret/arrow */
+    .caret {
+      cursor: pointer;
+      user-select: none; /* Prevent text selection */
+    }
+  
+    /* Create the caret/arrow with a unicode, and style it */
+    .caret::before {
+      content: "\25B6";
+      color: black;
+      display: inline-block;
+      margin-right: 6px;
+    }
+  
+    /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+    .caret-down::before {
+      transform: rotate(90deg);
+    }
+  
+    /* Hide the nested list */
+    .nested {
+      display: none;
+    }
+  
+    /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+    .active {
+      display: block;
+    }
