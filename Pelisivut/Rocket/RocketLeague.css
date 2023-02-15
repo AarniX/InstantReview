@@ -1,3 +1,17 @@
+.parallax {
+  /* The image used */
+  background-image: url(/rocket_league_pikkukuva.jpeg);
+
+  /* Full height */
+  height: 70%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment:scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -235,7 +249,7 @@ form input:focus + i{
     transition: all 0.3s ease;
 }
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+    width: 300px; /* Width of the outside container */
   }
   
   /* The slider itself */
@@ -244,7 +258,7 @@ form input:focus + i{
     appearance: none;
     width: 100%; /* Full-width */
     height: 25px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
+    background: #000000
     outline: none; /* Remove outline */
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -260,16 +274,16 @@ form input:focus + i{
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #04AA6D; /* Green background */
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: rgb(249,223,49); /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
   
   .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #04AA6D; /* Green background */
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #000000; /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
   ul,
