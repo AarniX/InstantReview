@@ -6,12 +6,100 @@
     <link rel="stylesheet" href="RocketLeague.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="layout scheme1 three-cols">
-        <div class="scheme1-1"></div>
-        <div class="scheme1-2"></div>
-        <div class="scheme1-3"></div>
+    <!-- Header Showcase -->
+    <header id="showcase" class="grid">
+      <div class="bg-image"></div>
+      <div class="content-wrap">
+        <img class="img2" src="/INSTANT_REVIEW_LOGO+TEKSTI.png" alt="" />
+        <button class="btn2"><a href="/Insta.html">Back to home page</a></button>
+        <h1>Rocket League</h1>
+        <img class="img3" src="/rocket_league_pikkukuva.jpeg" alt="">
+        <p>
+          Rocket League on 2015 markkinoille tullut peli, jonka idea pyörii jalkapallon ja lentävien mikroautojen risteytyksessä. Areena on kattoa myöden rajattu, ettei pallo pääse karkaamaan pelistä.  Hyvin nopea tempo pitää pelaajan väkisin hyvin immersoituneena, joka anna ylimäärästä aikaa hengähtää. 
+
+Ensimmäisenä peli saapui PS4 ja Xbox konsoleille ja myöhemmin myös PC maailmaan.  Suosio peliä kohtaan on kasvanut jatkuvasti ja se on ollut jo useita vuosia yksi kilpailullisimmista peleistä myös esports maailmassa.  
+
+Peli on parantunut ikääntyessään ja siihen lisättyjen kustomointi asetusten myötä antaa pelaajan tehdä täysin itsensä näköinen ajoneuvo, jolla loikata suoraan areenalle.  
+        </p>
       </div>
-    </div>
+    </header>
+          <ul id="myUL">
+            <li>
+              <span class="caret"><button class="btn"> Kerro oma mielipiteesi pelistä!</button></span>
+              <ul class="nested">
+                <li><div class="container">
+                  <form action="/action_page.php">
+                      <label for="birthday">Päivämäärä:</label>
+                      <input type="date" id="birthday" name="birthday">
+                    </form>
+                <form>
+                  <h1>Tietosi:</h1>
+                  <div class="id">
+                    <input type="text" placeholder="Nimi" />
+                    <i class="far fa-user"></i>
+                  <div class="id">
+                    <input type="email" placeholder="Sähköopstiosoite" />
+                    <i class="far fa-envelope"></i>
+                  </div>
+                  <textarea cols="15" rows="5" placeholder="Vapaa sana"></textarea>
+                  <fieldset>
+                      <legend>Kokemustasosi<em>(Valitse yksi)</em>:</legend>
+                      <ul>
+                        <li>
+                          <label
+                            ><input type="radio" name="crust" value="white" />En ole koskaan pelannut</label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="crust"
+                              value="Multigrain"
+                            />Joskus kokeillut</label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="crust"
+                              value="Cheese-stuffed"
+                            />Pelaan usein</label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="crust"
+                              value="Gluten-free"
+                            />Kokenut pelaaja</label
+                          >
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <p>Kuinka paljon pisteitä antaisit pelille? <br>(1-100)</p>
+                    <div class="slidecontainer">
+                      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <button>Send</button>
+                </form>
+              </div></li>
+          </ul>
+    </main>
+    <footer>
+    </footer>
   </body>
+  <script>
+    var toggler = document.getElementsByClassName("caret");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function () {
+        this.parentElement.querySelector(".nested").classList.toggle("active");
+        this.classList.toggle("caret-down");
+      });
+    }
+  </script>
 </html>
