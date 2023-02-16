@@ -10,7 +10,6 @@
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
   }
-  
   body {
     background: rgb(0, 0, 0);
     margin: 30px 50px;
@@ -169,7 +168,7 @@
     padding: 1rem;
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 700px) {
     .top-container {
       grid-template-areas:
         'showcase showcase'
