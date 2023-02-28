@@ -1,0 +1,79 @@
+body {
+    background-color: #000000;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10%;
+    font-family: cursive;
+  }
+  .pic{
+    border-radius: 10px;
+    max-height: 200px;
+    margin-top: 20px;
+  }
+  .pic1{
+    border-radius: 10px;
+    max-height: 100px;
+    max-width: 200px;
+    margin-top: 20px;
+    justify-content: left;
+    margin-left: 50rem;
+  }
+  .btn {
+    background-color: rgb(249,223,49);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+  h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+    margin-top: 30px;
+  }
+  h2 {
+    color: aliceblue;
+    font-size: 1em;
+  }
+  .glow {
+    font-size: 50px;
+    color: rgb(249,223,49);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(249,223,49),
+        0 0 40px rgb(249,223,49), 0 0 50px rgb(249,223,49), 0 0 60px #e60073,
+        0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000,
+        0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000,
+        0 0 80px #000000;
+    }
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 16px;
+    -webkit-text-fill-color: azure;
+  }
+  img {
+    max-width: 100%;
+  }
