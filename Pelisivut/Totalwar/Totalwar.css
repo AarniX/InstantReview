@@ -1,0 +1,261 @@
+body {
+    background-color: #868686;
+    background-color: rgb(10, 8, 8);
+    margin: 0 10%;
+    font-family: cursive;
+  }
+.pic{
+    border-radius: 50px;
+    align-items: center;
+    margin-left: 30pc;
+    margin-bottom: 100px;
+    size: 6rem;
+    max-width: 600px;
+    max-height: 1000px;
+
+  }
+  .pic1{
+    border-radius: 50px;
+    align-items: center;
+    margin-right: 30pc;
+    size: 1rem;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+
+  }
+  @media (max-width: 500px) {
+    .pic1{
+        padding: 1rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .pic{
+        margin-left: 0pc;
+        align-items: left;
+        max-width: 300px;
+
+    }
+  }
+  *.text{
+    color: #000;
+  }
+  h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dfdede;
+    margin-top: 30px;
+  }
+  h2 {
+    color: aliceblue;
+    font-size: 1em;
+  }
+
+  .collapsible {
+    background-color: rgb(249,223,49);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline:#444;
+    font-size: 15px;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .collapsible:hover {
+    background-color: #372f2f;
+  }
+
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  .btn {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    opacity: 0.6;
+  }
+  header h1 {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom left, #553c9a, #ee3510);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+      outline: none;
+      color: #fff;
+  }
+  section{
+      background: url(bg.jpg);
+      background-size: cover;
+      filter: blur(2px) brightness(30%);
+  }
+  
+  .container{
+      width: 360px;
+      background: #000;
+  }
+  .container form{
+      width: 100%;
+      text-align: center;
+      padding: 25px 20px;
+  }
+  form h1{
+      padding: 10px 0;
+  }
+  form .id{
+      position: relative;
+  }
+  .id i{
+      position: absolute;
+      font-size: 20px;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+  form input{
+      width: 100%;
+      height: 50px;
+      margin: 4px 0;
+      border: 1px solid #5c5c5c;
+      border-radius: 3px;
+      background: #181717;
+      padding: 0 15px;
+      padding-right: 45px;
+      font-size: 20px;
+  }
+  form textarea{
+      padding: 5px 15px;
+      border: 1px solid #5c5c5c;
+      border-radius: 3px;
+      background: #181717;
+      font-size: 20px;
+      width: 100%;
+      margin: 4px 0;
+  }
+  form button{
+      margin-top: 5px;
+      border: none;
+      background: #00fff0;
+      color: #222;
+      padding: 10px 0;
+      width: 100%;
+      font-size: 20px;
+      font-weight: 800;
+      cursor: pointer;
+      border-radius: 3px;
+  }
+  form input:focus,
+  form textarea:focus{
+      border: 1px solid #00fff0;
+      color: #00fff0;
+      transition: all 0.3s ease;
+  }
+  form input:focus::placeholder,
+  form textarea:focus::placeholder{
+      padding-left: 4xp;
+      color: #00fff0;
+      transition: all 0.3s ease;
+  }
+  form input:focus + i{
+      color: #00fff0;
+      transition: all 0.3s ease;
+  }
+  .slidecontainer {
+      width: 300px; /* Width of the outside container */
+    }
+    
+    /* The slider itself */
+    .slider {
+      -webkit-appearance: none;  /* Override default CSS styles */
+      appearance: none;
+      width: 100%; /* Full-width */
+      height: 25px; /* Specified height */
+      background: #000000
+    }
+    /* Mouse-over effects */
+    .slider:hover {
+      opacity: 1; /* Fully shown on mouse-over */
+    }
+    
+    /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none; /* Override default look */
+      appearance: none;
+      width: 20px; /* Set a specific slider handle width */
+      height: 20px; /* Slider handle height */
+      background: rgb(249,223,49); /* Green background */
+      cursor: pointer; /* Cursor on hover */
+    }
+    
+    .slider::-moz-range-thumb {
+      width: 20px; /* Set a specific slider handle width */
+      height: 20px; /* Slider handle height */
+      background: #000000; /* Green background */
+      cursor: pointer; /* Cursor on hover */
+    }
+    ul,
+    #myUL {
+      list-style-type: none;
+    }
+  
+    /* Remove margins and padding from the parent ul */
+    #myUL {
+      margin: 0;
+      padding: 0;
+    }
+    header h1 {
+      font-size: 50px;
+      font-weight: 600;
+      background-image: linear-gradient(to bottom left, rgb(249,223,49), rgb(249,223,49));
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    /* Remove default bullets */
+    ul,
+    #myUL {
+      list-style-type: none;
+    }
+  
+    /* Remove margins and padding from the parent ul */
+    #myUL {
+      margin: 0;
+      padding: 0;
+    }
+  
+  
+    /* Hide the nested list */
+    .nested {
+      display: none;
+    }
+  
+    /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+    .active {
+      display: block;
+    }

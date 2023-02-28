@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disney Dreamlight valley</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Disney.css" />
+    <div class="text" id="google_translate_element"></div>
+  </head>
+    <body>
+      <header>
+        <h1 class="header h1">Disney Dreamlight valley
+        </h1>
+        <img class="pic1" src="/INSTANT_REVIEW_LOGO+TEKSTI.png" alt="">  <img class="pic" src="/DDLV pic.jpg" alt="Disney pelin logo"></header>
+      <h2></h2>
+      <p class="h1"></p>
+      </div>
+      <h3 class="h1">
+        Disney Dreamlight Valley peli on sekoitus simulaatiota ja sekkailua. Pelissä tehdään erilaisia tehtäviä uusien ja vanhojen klassikko Disney ja Pixar hamojen kanssa Dreamlight Valleyssä. Disney Dreamlight Valley on tällä hetkellä Early Access peli mutta myöhemmin vuonna 2023 peli tulee olemaan jokaiselle pelialustalle ilmainen, kun peli julkaistaan. <br> 
+        <br>
+        <em class="text">Road Map vuodelle 2023</em><br>
+        <br>
+        Disney Dreamlight Valley tekijät on antanut tiedon siitä, että helmikuussa peliin saapuu Mirabell Encanto elokuvasta ja monien suosikki Olaf Frozenista. Huhtikuussa peliin on tulossa tämänhetkisten tietojen mukaan Simba Leijonakuninkaasta. Huhtikuun päivityksessä on tulossa myös uusi Realm.  
+        <br><br>
+        Näiden lisäksi peliin on tulossa moninpeli mahdollisuus ja paljon muuta. 
+      </h3>
+      <button type="button" class="collapsible">Arvio</button>
+      <div class="content">
+        <p>
+            Disney Dreamlight Valley on hyvin moni puolinen peli, joka tarjoaa tällä hetkellä pelaajalle uutta sisältöä peliin. Early Access julkaisun (6.9.2022) jälkeen tullut jo monia hyviä ja monipuolisia päivityksiä. Pelissä on ollut paljon pelattavaa siihen nähden, että peli ei ole edes vielä virallisesti ulkona.  <br>
+            <br>
+            Näin suurelle Disney fanille on ollut huikeaa päästä hengailemaan lapsuudesta tuttujen hahmojen kanssa. Hahmojen kanssa on päässyt tekemään erilaisia tehtäviä ja vaikka kalastamaan. Hahmojen kanssa kannattaa nimenomaan aina tehdä asioita kuten kalastaa, puutharhan hoita ja louhintaa. Sillä hamojen kanssa hengailu auttaa nostamaan ystävyys tasoa, joka avaa lisää tehtäviä. <br>
+            <br>
+            Suosittelisin Disney Dreamlight Valleytä varsinki Animal Crossing sekä Stardew Valleyn pelaajille, sillä Disney Dreamlight Valley on suuri päivitys kumpaankin peliin. Disney Dreamlight Valley tulee varmasti paranemaan mitä enemmän saamme päivityksiä peliin. 
+        </p>
+      </div>
+      <br />
+      <button type="button" class="collapsible">Mitä mieltä olet pelistä?</button>
+      <div class="content">
+        <ul id="myUL">
+            <li>
+              <span class="caret"><button class="btn"> Kerro oma mielipiteesi painamalla tästä!</button></span>
+              <ul class="nested">
+                <li><div class="container">
+                  <form action="/action_page.php">
+                      <label for="birthday">Päivämäärä:</label>
+                      <input type="date" id="birthday" name="birthday">
+                    </form>
+                <form>
+                  <h1>Tietosi:</h1>
+                  <div class="id">
+                    <input type="text" placeholder="Nimi" />
+                    <i class="far fa-user"></i>
+                  <div class="id">
+                    <input type="email" placeholder="Sähköopstiosoite" />
+                    <i class="far fa-envelope"></i>
+                  </div>
+                  <textarea cols="15" rows="5" placeholder="Vapaa sana"></textarea>
+                  <fieldset>
+                      <legend>Kokemustasosi<em>(Valitse yksi)</em>:</legend>
+                      <ul>
+                        <li>
+                          <label
+                            ><input type="radio" name="crust" value="white" />En ole koskaan pelannut</label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="crust"
+                              value="Multigrain"
+                            />Joskus kokeillut</label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="crust"
+                              value="Cheese-stuffed"
+                            />Pelaan usein</label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="crust"
+                              value="Gluten-free"
+                            />Kokenut pelaaja</label
+                          >
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <p>Kuinka paljon pisteitä antaisit pelille? <br>(1-10)</p>
+                    <div class="slidecontainer">
+                      <input type="range" min="0" max="5" value="11" class="slider" id="myRange">
+                    </div>
+                    <button>Lähetä!</button>
+                </form>
+              </div></li>
+          </ul>
+      </div>
+      <br />
+      <a href="/Insta.html"
+        ><button class="btn">Kotisivulle</button></a
+      >
+    </body>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+  
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      var toggler = document.getElementsByClassName("caret");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function () {
+        this.parentElement.querySelector(".nested").classList.toggle("active");
+        this.classList.toggle("caret-down");
+      });
+    }
+    </script>
+    <script class="text" type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'fi'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>
