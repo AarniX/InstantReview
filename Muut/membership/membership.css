@@ -12,6 +12,11 @@ body{
     max-height: 300px;
     margin-right: 55rem;
 }
+.pic1{
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 55rem;
+}
 .pricing-table .block-heading {
   padding-top: 50px;
   margin-bottom: 40px;

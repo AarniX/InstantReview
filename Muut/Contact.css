@@ -29,6 +29,11 @@ body {
     transition: 0.3s;
     border-radius: 20px;
   }
+  .btnn {
+    background-color: rgb(0, 0, 0);
+
+    color: rgb(249,223,49);
+  }
   h1 {
     text-align: center;
     font-family: serif;
