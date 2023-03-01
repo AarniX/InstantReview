@@ -1,0 +1,238 @@
+body {
+    background-color: #000000;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10%;
+    font-family: cursive;
+  }
+  .pic{
+    border-radius: 10px;
+    max-height: 200px;
+    margin-top: 20px;
+    margin-right: 40rem;
+  }
+  .pic1{
+    border-radius: 10px;
+    max-height: 100px;
+    max-width: 200px;
+    margin-bottom: 50rem;
+    justify-content: left;
+    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .btn2{
+    margin-right: 10rem;
+    margin-top: 50rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    background-color: rgb(249,223,49);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+  .btnn {
+    background-color: rgb(0, 0, 0);
+
+    color: rgb(249,223,49);
+  }
+  h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+    margin-top: 30px;
+  }
+  h2 {
+    color: aliceblue;
+    font-size: 1em;
+  }
+  .glow {
+    font-size: 50px;
+    color: rgb(249,223,49);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 16px;
+    -webkit-text-fill-color: azure;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) brightness(30%);
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 360px;
+    background: #000;
+    box-shadow: 0 0 8px rgba(250,250,250, 0.6);
+    opacity: 0.6;
+}
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+form h1{
+    padding: 10px 0;
+}
+form .id{
+    position: relative;
+}
+.id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+}
+form textarea{
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    background: rgb(249,223,49);
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form input:focus,
+form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4xp;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+form input:focus + i{
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  .example {
+    padding: 20px;
+    color: white;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
