@@ -14,7 +14,7 @@
     color: var(--dark);
   }
   body {
-    background: rgb(0, 0, 0);
+    background: rgb(73, 73, 73);
     margin: 30px 50px;
     line-height: 1.4;
   }
